@@ -19,8 +19,15 @@ firebaseCrashlyticsBuildtools = "3.0.2"
 playServicesAuth = "21.3.0"
 playServicesAuthVersion = "20.7.0"
 playServicesFido = "20.0.1"
+retrofit = "2.9.0"
+okhttp = "4.12.0"
+runner = "1.5.2"
 
 [libraries]
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
 androidx-compose-bom-v20240100 = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-credentials = { module = "androidx.credentials:credentials", version.ref = "credentials" }
@@ -51,6 +58,7 @@ play-services-auth-v2070 = { module = "com.google.android.gms:play-services-auth
 play-services-fido = { group = "com.google.android.gms", name = "play-services-fido", version.ref = "playServicesFido" }
 ui = { module = "androidx.compose.ui:ui" }
 ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+androidx-runner = { group = "androidx.test", name = "runner", version.ref = "runner" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
