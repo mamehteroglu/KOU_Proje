@@ -19,9 +19,7 @@ Backend Kurulum
 
 SQL Server Kurulumu:
 
-SQL Server'ı buradan indirin ve kurun
-SQL Server Configuration Manager'da TCP/IP protokolünü etkinleştirin
-SQL Server Browser servisini başlatın
+SQL Server'ı kurun.
 
 
 Visual Studio Kurulumu:
@@ -33,7 +31,7 @@ Visual Studio Kurulumu:
 Proje Kurulumu:
 bashCopygit clone [proje-url]
 cd [proje-klasörü]
-dotnet restore
+
 
 Veritabanı Yapılandırması:
 
@@ -45,21 +43,14 @@ jsonCopy{
   }
 }
 
-Migration'ları çalıştırın:
-bashCopydotnet ef migrations add InitialCreate
-dotnet ef database update
 
-Projeyi çalıştırın:
+
+Apiyi çalıştırın:
 dotnet run
 
 
 Mobile Uygulama Kurulumu
 
-Android Studio Kurulumu:
-
-Android Studio'yu buradan indirin
-Kotlin plugin'ini yükleyin
-Android SDK'yı güncelleyin
 
 
 Proje Kurulumu:
@@ -84,12 +75,9 @@ API Level 24 veya üzeri bir sistem imajı seçin
 
 
 Build Oluşturma
-Android Build
+Android Build alın.
 
-Build Variants'dan "release" seçin
-Build > Generate Signed Bundle / APK seçin
-Key store bilgilerini girin
-Build işlemini başlatın
+
 
 
 
