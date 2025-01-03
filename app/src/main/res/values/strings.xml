@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">KOU_Proje</string>
-    <string name="web_client_id">192467153699–3las1qhr1q7p8c1ngou11cn7mf68jhso.apps.googleusercontent.com</string>
+    <string name="web_client_id">192467153699-3las1qhr1q7p8c1ngou11cn7mf68jhso.apps.googleusercontent.com</string>
+    <string name="title_activity_auth_screen2">AuthScreen2</string>
 </resources>
