@@ -50,7 +50,7 @@ bashCopydotnet ef migrations add InitialCreate
 dotnet ef database update
 
 Projeyi çalıştırın:
-bashCopydotnet run
+dotnet run
 
 
 Mobile Uygulama Kurulumu
