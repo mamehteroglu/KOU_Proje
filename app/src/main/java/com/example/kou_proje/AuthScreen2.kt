@@ -2,6 +2,7 @@ package com.example.kou_proje
 
 import android.app.Activity
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -168,6 +169,9 @@ fun AuthScreen(
                     sharedPrefs.edit().putString("jwt_token", token).apply()
 
                     // Ana ekrana yönlendirme işlemi burada yapılabilir
+                    val intent = Intent(context, TaskScreenActivity::class.java)
+                    context.startActivity(intent)
+                    (context as? Activity)?.finish()
                 }
             }
             else -> {}
